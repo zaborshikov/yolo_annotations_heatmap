@@ -1,8 +1,10 @@
 import numpy as np
 from matplotlib import pyplot as plt
+from glob import glob
 
 def create_heatmap(path_to_annotations, width, height):
     heatmap = np.zeros((height, width))
+    pathes = glob(path_to_annotations + '//*')
 
     for pth in pathes:
         with open(pth, 'r') as f:
