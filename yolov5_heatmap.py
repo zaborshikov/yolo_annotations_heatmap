@@ -21,5 +21,5 @@ def create_heatmap(path_to_annotations, width, height):
 
 def show_heatmap(path_to_annotations, width, height):
     hmap = create_heatmap(path_to_annotations, width, height)
-    plt.imshow(heatmap, cmap='afmhot')
+    plt.imshow(hmap, cmap='afmhot')
     plt.show()
