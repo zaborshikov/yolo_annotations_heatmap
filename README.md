@@ -7,5 +7,5 @@ dependencies: matplotlib, numpy
 ```
 import yolov5_heatmap as yhp
 
-yhp.show_heatmap('train/labels')
+yhp.show_heatmap('train/labels', 640, 640)
 ```
