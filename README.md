@@ -5,7 +5,7 @@ dependencies: matplotlib, numpy
 
 ## How to use
 ```
-import yolov5_heatmap
+import yolov5_heatmap as yhp
 
-show_heatmap('train/labels')
+yhp.show_heatmap('train/labels')
 ```
